@@ -41,8 +41,9 @@ body {
 }
 
 .main {
-    margin-left: 169px;
-    width: 70%;
+    margin-left: 175px;
+    text-align: center;
+    width: 87%;
     z-index: 2;
     font-size: 28px;
     padding: 0px 10px;
