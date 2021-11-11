@@ -41,13 +41,14 @@ body {
 }
 
 .main {
-    margin-left: 175px;
+    margin-left: 169px;
     text-align: center;
-    width: 87.25%;
+    width: 88.05%;
     z-index: 2;
     font-size: 28px;
-    padding: 0px 10px;
-    padding-top: 40px;
+    position: relative;
+    top: 415px;
+    padding: 20.5% 10px;
+    padding-top: 10px;
     background-color: white;
-    border-radius: 10px;
 }
