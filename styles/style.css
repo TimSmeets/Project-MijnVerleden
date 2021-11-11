@@ -2,6 +2,7 @@ body {
     font-family: "Lato", sans-serif;
     background-image: url("../assets/achtergrond.png");
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 .sidenav {
