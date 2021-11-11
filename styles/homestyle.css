@@ -1,7 +1,8 @@
 body {
     font-family: "Lato", sans-serif;
-    background-image: url("../assets/achtergrond.png");
+    background-image: url("../assets/mainachtergrond.png");
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 .sidenav {
@@ -41,14 +42,13 @@ body {
 }
 
 .homemain {
-    margin-left: 169px;
-    text-align: center;
-    width: 88.05%;
+    width: 100%;
     z-index: 2;
     font-size: 28px;
-    position: relative;
-    top: 415px;
+    position: fixed;
+    bottom: 0%;
     padding: 20.5% 10px;
     padding-top: 10px;
+    padding-left: 175px;
     background-color: white;
 }
