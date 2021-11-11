@@ -1,0 +1,54 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-image: url("../assets/achtergrond.png");
+    background-size: 100%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 175px;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-right: solid 2px;
+    border-color: #c7c7c7;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    background-color: #f2f2f2;
+}
+
+.sidenav a:hover {
+    color: #818181;
+    background-color: #d8dbe3;
+}
+
+.sidenav a.active {
+    background-color: #ffffff;
+    color: #3a4cd6;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    border-color: #c7c7c7;
+}
+
+.homemain {
+    margin-left: 169px;
+    text-align: center;
+    width: 88.05%;
+    z-index: 2;
+    font-size: 28px;
+    position: relative;
+    top: 415px;
+    padding: 20.5% 10px;
+    padding-top: 10px;
+    background-color: white;
+}
